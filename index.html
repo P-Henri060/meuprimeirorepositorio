@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Div e Span</title>
+    <title>Formulário</title>
 </head>
+
 <body>
-  <div>Bloco 1</div> 
-  <div>Bloco 2</div>
-  <span>Linha 1</span>
-  <span>Linha 2</span>
-  <span>Linha 3</span>
+    <h1>Formulário Top</h1>
+    <form action="">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>E-mail:</label>
+            <input type="email">
+        </div>
+        <div>
+            <label for="">CPF:</label>
+            <input type="number">
+        </div>
+        <div>
+            <label>Curso:</label>
+            <input type="radio" name="Curso"> Administração
+            <input type="radio" name="Curso"> Informática
+            <input type="radio" name="Curso"> Enfermagem
+        </div>
+        <div>
+            <label>Interesses</label>
+            <input type="checkbox" name=""> Esportes
+            <input type="checkbox" name="" id=""> Viajens
+            <input type="checkbox" name="" id=""> Meditação 
+            <input type="checkbox" name="" id=""> Estudos
+        </div>
+        <div>
+            <label>Possui pet?</label>
+            <select name="" id="">
+                <option value="">Sim</option>
+                <option value="">Não</option>
+                <option value="">Prefiro não responder</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
 </body>
+
 </html>
